@@ -1,11 +1,15 @@
 name: DhamaalTPA
-version: 1.0.0
+version: 1.1.0
 main: org.dhamaal.tpaforms.DhamaalTpa
 api-version: "1.20"
 depend: [floodgate]
 softdepend: [Essentials]
-description: Click-based TPA and online player list forms for Bedrock players
+description: Click-based menu, TPA and online player list for Bedrock and Java players
 commands:
+  dhamaalmenu:
+    description: Open the DHAMAAL SMP main menu (Bedrock form or Java chest menu)
+    aliases: [dmenu]
+    permission: dhamaal.tpamenu
   tpamenu:
     description: Open the TPA online player list
     permission: dhamaal.tpamenu
